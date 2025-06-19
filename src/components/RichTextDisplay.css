@@ -1,0 +1,37 @@
+/* RichTextDisplay.css */
+.rich-text-content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.rich-text-content ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.rich-text-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.rich-text-content li {
+  margin-bottom: 0.5em;
+}
+
+.rich-text-content strong {
+  font-weight: bold;
+}
+
+.rich-text-content em {
+  font-style: italic;
+}
+
+.rich-text-content a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.rich-text-content a:hover {
+  color: #1d4ed8;
+}
