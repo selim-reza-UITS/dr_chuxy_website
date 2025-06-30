@@ -40,7 +40,7 @@ const EmailResultsPage = () => {
 
       setIsLoading(true);
       const response = await fetch(
-        "http://api.smarthealthnow.io/api/v1/user/sent/mail/",
+        "https://api.smarthealthnow.io/api/v1/user/sent/mail/",
         {
           method: "POST",
           headers: {
