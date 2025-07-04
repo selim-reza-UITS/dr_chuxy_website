@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // Create the base query with the API base URL and token handling
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://api.smarthealthnow.io/api/v1",
+  baseUrl: import.meta.env.VITE_BASEURL,
   prepareHeaders: (headers, { getState }) => {
     // Retrieve token from Redux state
     const token = getState().auth?.token || null;
