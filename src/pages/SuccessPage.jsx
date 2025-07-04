@@ -20,14 +20,14 @@ const SuccessPage = () => {
 
         <div className="flex items-center justify-center flex-col ">
           <a
-            href="http://www.smartshealth.net"
+            href="https://www.smarthealthnow.io"
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-500 hover:underline text-2xl font-bold"
           >
-            www.smartshealth.net
+            www.smarthealthnow.io
           </a>
-
+    
           <button
             onClick={() => navigate("/results")}
             className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
