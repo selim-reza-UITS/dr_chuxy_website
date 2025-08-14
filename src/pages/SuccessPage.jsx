@@ -25,7 +25,7 @@ const SuccessPage = () => {
             rel="noopener noreferrer"
             className="text-red-500 hover:underline text-2xl font-bold"
           >
-            www.smarthealthnow.net
+            www.smartshealth.net
           </a>
     
           <button
