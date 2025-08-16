@@ -242,7 +242,7 @@ const SurveyPage = () => {
                 {isSubmitting ? (
                   <>
                     <Loader2 className="h-5 w-5 mr-2 animate-spin" />
-                    Submitting...
+                    Matching your results to the evidence -  this may take a few minutes. Don't close this page.
                   </>
                 ) : (
                   "Submit"
