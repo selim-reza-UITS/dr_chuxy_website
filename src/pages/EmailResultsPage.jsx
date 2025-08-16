@@ -39,7 +39,7 @@ const EmailResultsPage = () => {
         <p>${recommendations}</p>
 
         <p>Please take a moment to share these with a loved one or your medical provider.</p>
-
+        <br/>
         <p style="text-align: center; margin-top: 15px;">
           To learn more, please visit 
           <a href="https://www.smarthealthnow.io" 
