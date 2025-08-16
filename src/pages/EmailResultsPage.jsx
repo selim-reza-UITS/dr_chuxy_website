@@ -129,13 +129,13 @@ const EmailResultsPage = () => {
             >
               Message Preview
             </label>
-            <textarea
+            <div
               id="message"
               name="message"
-              value={messageContent}
+              dangerouslySetInnerHTML={{ __html: messageContent }}
               className="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-600 resize-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
-              rows={15}
-              readOnly
+              // rows={15}
+              // readOnly
             />
           </div>
 
