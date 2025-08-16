@@ -35,8 +35,19 @@ const EmailResultsPage = () => {
     }
 
     try {
-      const recommendationText = `Hello ${name},\n\nThank you for using our service.\n\nBased on your responses, here are preventive health recommendations just for you:\n\n${recommendations}\n\nPlease take a moment to share these with a loved one or your medical provider.\n\nTo learn more, please visit www.smartshealth.net`;
-      console.log(token, "Token from state");
+      const recommendationText = `
+        <p>${recommendations}</p>
+
+        <p>Please take a moment to share these with a loved one or your medical provider.</p>
+
+        <p style="text-align: center; margin-top: 15px;">
+          To learn more, please visit 
+          <a href="https://www.smarthealthnow.io" 
+            style="color:#0e6eff; text-decoration: none;">
+            www.smartshealth.net
+          </a>
+        </p>
+      `;
 
       setIsLoading(true);
       const response = await fetch(

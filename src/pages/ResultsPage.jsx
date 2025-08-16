@@ -45,11 +45,6 @@ const ResultsPage = () => {
 
   const handleCopyToClipboard = () => {
     const text = `
-Hello ${name},
-
-Thank you for using our service.
-
-Based on your responses, here are preventive health recommendations just for you:
 
 ${recommendations}
 
