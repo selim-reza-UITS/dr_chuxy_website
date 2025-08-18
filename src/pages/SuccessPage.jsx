@@ -20,8 +20,7 @@ const SuccessPage = () => {
 
         <div className="flex items-center justify-center flex-col ">
           <a
-            href="https://www.smarthealthnow.io"
-            target="_blank"
+            href="https://smartshealth.net"
             rel="noopener noreferrer"
             className="text-red-500 hover:underline text-2xl font-bold"
           >
